@@ -1,0 +1,12 @@
+@import "sections/header/styles.css";
+@import "sections/header/styles.css";
+@import "sections/hero/styles.css";
+@import "sections/residence/styles.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}

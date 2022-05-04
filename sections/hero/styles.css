@@ -1,0 +1,18 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero__left {
+    background: yellow;
+}
+      
+
+.hero__right {
+    background: pink;
+}
+           
+.hero__title {
+    color: blue
+}
