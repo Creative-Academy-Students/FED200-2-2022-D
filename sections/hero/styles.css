@@ -1,18 +1,103 @@
-.hero {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.hero__left {
-    background: yellow;
-}
-      
-
-.hero__right {
-    background: pink;
-}
-           
-.hero__title {
-    color: blue
-}
+.banner {
+    display: grid;
+    grid: 40px / 1fr 1fr 1fr;
+    background: rgba(22, 22, 24, 1);
+  }
+  .grid {
+    display: grid;
+    grid: 50px / 1fr 1fr 1fr;
+    margin-top: 17px;
+  }
+  .grid-item {
+    margin: auto;
+    text-align: center;
+    background: rgba(22, 22, 24, 1);
+    color: white;
+  }
+  .grid-title {
+    margin-top: 30px;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.095em;
+  color: #FFFFFF;
+  }
+  .split {
+    display: grid;
+    grid: 900px / 1fr 1fr;
+    background: rgba(22, 22, 24, 1);
+  }
+  .left-container {
+  }
+  .background-img {
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 530px;
+    height: 700px;
+    background: white;
+    border-radius: 15px;
+  }
+  .right-container {
+    margin-top: 135px;
+  }
+  .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 120px;
+  }
+  .description {
+    margin-left: 120px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #787878;
+    margin-right: 160px;
+  }
+  .search {
+    display: block;
+    width: auto;
+    height: 90px;
+    background: white;
+    margin-top: 55px;
+    margin-left: 120px;
+    margin-right: 140px;
+  }
+  .reviews {
+    display: grid;
+    grid: 100px / 1fr 1fr 1fr;
+    margin-left: 120px;
+    margin-right: 200px;
+  }
+  .review {
+    margin-top: 80px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.095em;
+    color: #20AB72;
+  }
+  .review-dsecription {
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.9;
+  }
