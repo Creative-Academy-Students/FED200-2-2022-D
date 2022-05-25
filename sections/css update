@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* { box-sizing: border-box }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Banner-group{
+  display: grid;
+  grid: 40px / 1fr 1fr 1fr;
+  background: rgba(22, 22, 24, 1);
+  font-size: 14px;
+}
+
+.left-Banner{
+  display: grid;
+  grid: 50px / 1fr 1fr 1fr;
+  margin-top: 17px;
+}
+
+.grid-link-selected{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid lime;
+}
+.grid-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-item{
+  margin: auto;
+  text-align: center;
+  background: rgba(22, 22, 24, 1);
+  color: white;
+}
+
+.Center-Banner{
+  display: flex;
+  grid: auto / 1fr 1fr;
+  margin: auto;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+
+.logo-image{
+  display: block;
+  background: white;
+  height: auto;
+  width: auto;
+}
+
+.logo-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.095em;
+}
+
+.Right-Banner{
+  display: grid;
+  grid: 50px / 1fr 1fr 1fr;
+  margin-top: 17px;
+}
+
+.hero{
+  display: grid;
+  grid: 900px / 1fr 1fr;
+  background: rgba(22, 22, 24, 1);
+}
+
+.left{
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-right: 80px;
+  border-radius: 15px;
+}
+
+@mediaquery {
+  change size of image for box sizing
+}
+
+.left-image{
+  display: block;
+  width: auto;
+  height: 700px;
+  background: white;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+
+.Homes-CTA-box{
+  display: block;
+  width: 250px;
+  height: 130px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 520px;
+  background: yellow;
+  text-align: center;
+  can ignore for now
+}
+
+@mediaquery {
+  change size of right-side for box sizing
+}
+
+.right{
+  margin-top: 135px;
+}
+
+.Title{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.17em;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left: 120px;
+}
+
+.Description{
+  margin-left: 120px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #787878;
+  margin-right: 160px;
+}
+
+.Search-CTA-box{
+  display: block;
+  width: auto;
+  height: 90px;
+  background: white;
+  margin-top: 55px;
+  margin-left: 120px;
+  margin-right: 140px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.review-box{
+  display: grid;
+  grid: 100px / 1fr 1fr 1fr;
+  margin-left: 120px;
+  margin-right: 200px;
+}
+
+.Review{
+  margin-top: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.095em;
+  color: white;
+}
+
+.icon{
+  color: blue;
+  text-decoration: none;
+}
+
+.Review-decription{
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
