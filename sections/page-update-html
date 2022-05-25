@@ -1,0 +1,95 @@
+<section id="nav-banner" style="background: pink">
+    <div class="Banner-group">
+      <div class="left-Banner">
+        <div class="grid-item">
+          <a class="grid-link-selected" href="#section-buying">
+            Buying
+          </a>
+        </div>
+        <div class="grid-item">
+          <a class="grid-link" href="#section-renting">
+            Renting
+          </a>
+        </div>
+        <div class="grid-item">
+          <a class="grid-link" href="#">
+            Selling
+          </a>
+        </div>
+      </div>
+      <div class="Center-Banner">
+        <div class="logo-image"> image </div>
+        <div class="logo-text"> Renty </div>
+      </div>
+      <div class="Right-Banner">
+        <div class="grid-item">
+          <a class="grid-link" href="#section-about">
+            About Us
+          </a>
+        </div>
+        <div class="grid-item">
+          <a class="grid-link" href="#section-service">
+            Service
+          </a>
+        </div>
+        <div class="grid-item">
+          <a class="grid-link" href="#section-contact">
+            Contact
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    </secion>
+
+    <section id="hero">
+
+      <div class="hero">
+        <div class="left">
+          <div class="left-image">
+            image
+            <div class="Homes-CTA-box">
+            CTA
+          </div>
+            
+          </div>
+          
+        </div>
+
+        <div class="right">
+          <div class="Title">
+            Discover The Ideal Property Here
+          </div>
+          <div class="Description">
+            Here at Property Finder, we make it easy for all users to buy, sell and rent and rent out their homes just with a few clicks of a button.
+          </div>
+          <div class="Search-CTA-box">
+            CTA
+          </div>
+
+          <div class="review-box">
+            <div class="Review">
+              280<a class="icon" href="#">+</a>
+            </div>
+            <div class="Review">
+              15<a class="icon" href="#">+</a>
+            </div>
+            <div class="Review">
+              49<a class="icon" href="#">+</a>
+            </div>
+            <div class="Review-decription">
+              Google Reviews
+            </div>
+            <div class="Review-decription">
+              Years Experience
+            </div>
+            <div class="Review-decription">
+              Award Winning
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      </secion>
