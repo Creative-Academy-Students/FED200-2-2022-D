@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(22, 22, 24, 1);
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.Navigation-Banner {
+  margin-top: 17px;
+}
+
+.Banner-group {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.Right-Banner {
+  flex: 33%;
+  display: grid;
+  grid: 50px / 33% 33% 33%;
+}
+
+.Center-Banner {
+  flex: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.logo-image {
+  display: block;
+  font-size: 28px;
+}
+
+.logo-text {
+  font-size: 28px;
+}
+
+.left-Banner {
+  flex: 33%;
+  display: grid;
+  grid: 50px / 33% 33% 33%;
+}
+
+.grid-item {
+  flex: 33%;
+  justify-content: center;
+  text-align: center;
+  background: rgba(22, 22, 24, 1);
+  color: white;
+}
+
+.grid-link {
+  color: white;
+  text-decoration: none;
+}
+
+.grid-link-selected {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(72, 133, 107, 1);
+}
+
+.Section-1-Content {
+  width: auto;
+}
+
+.Container-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Container-1-Left {
+  flex: 50%;
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Container-1-Left-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+  border: 10px solid rgb(70, 70, 67, 1);
+}
+
+.Container-1-Right {
+  margin-top: 100px;
+  flex: 50%;
+}
+
+.Title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 59px;
+  letter-spacing: 0.17em;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.Description {
+  margin-left: 120px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #787878;
+  margin-right: 160px;
+}
+
+.Search-CTA-box {
+  display: block;
+  width: auto;
+  height: 90px;
+  background: white;
+  margin-top: 55px;
+  margin-left: 120px;
+  margin-right: 140px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.review-box {
+  display: grid;
+  grid: 100px / 1fr 1fr 1fr;
+  margin-left: 120px;
+  margin-right: 200px;
+}
+
+.Review {
+  margin-top: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.095em;
+  color: white;
+}
+
+.icon {
+  color: blue;
+  text-decoration: none;
+}
+
+.Review-decription {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.Section-2-Banner {
+}
+
+.Section-2-Content {
+  width: 850px;
+}
+
+.Section-3-Content {
+  width: 850px;
+}
+
+.Section-4-Content {
+  width: 850px;
+}
+
+.Section-5-Banner {
+}
+
+.Section-5-Content {
+  width: 850px;
+}
+
+.Section-6-Banner {
+}
+
+.Section-6-Content {
+  width: 850px;
+}
+
+.Footer-Content {
+  width: 850px;
+}
+
+.Footer-Extra {
+  width: 850px;
+}
+
