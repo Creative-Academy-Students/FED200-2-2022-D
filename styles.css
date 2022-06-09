@@ -1,11 +1,197 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&family=Open+Sans:wght@400;700&display=swap");
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: "Open Sans", sans-serif;
     background-color: rgba(22, 22, 24, 1);
+    color: #ffffff;
 }
 
+.Nav {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.Nav-Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Nav-item {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.Nav-link-selected {
+    border-bottom: solid 1px green;
+    padding-bottom: 10px;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.Nav-logo {
+    align-content: center;
+}
+
+.Section-1-Content {
+    margin-top: 100px;
+    ;
+    width: auto;
+}
+
+.Container-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container-1-Left {
+    flex: 50%;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Container-1-Left-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    border: 10px solid rgb(70, 70, 67, 1);
+}
+
+.Container-1-Right {
+    margin-top: 100px;
+    flex: 50%;
+}
+
+.Title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.17em;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.Description {
+    margin-left: 120px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #787878;
+    margin-right: 160px;
+}
+
+.Search-CTA-box {
+    display: block;
+    width: auto;
+    height: 90px;
+    background: white;
+    margin-top: 55px;
+    margin-left: 120px;
+    margin-right: 140px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.review-box {
+    display: grid;
+    grid: 100px / 1fr 1fr 1fr;
+    margin-left: 120px;
+    margin-right: 200px;
+}
+
+.Review {
+    margin-top: 80px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.095em;
+    color: white;
+}
+
+.icon {
+    color: blue;
+    text-decoration: none;
+}
+
+.Review-decription {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.Section-2-Banner {
+    justify-content: center;
+}
+
+.Section-2-Content {
+    width: 850px;
+}
+
+.Section-3-Content {
+    width: 850px;
+}
+
+.Section-4-Content {
+    width: 850px;
+}
+
+.Section-5-Banner {
+    justify-content: center;
+}
+
+.Section-5-Content {
+    width: 850px;
+}
+
+.Section-6-Banner {
+    justify-content: center;
+}
+
+.Section-6-Content {
+    width: 850px;
+}
+
+.Footer-Content {
+    width: 850px;
+}
+
+.Footer-Extra {
+    width: 850px;
+}

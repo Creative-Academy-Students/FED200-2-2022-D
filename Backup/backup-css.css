@@ -1,0 +1,288 @@
+body {
+    color: white;
+    background-color: rgb(3, 5, 3);
+    font-size: medium;
+}
+
+.Container-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+    .Container-1 {
+        flex-direction: column;
+    }
+}
+
+.item-1 {
+    margin-top: 20px;
+    padding: 10px;
+    align-self: center;
+}
+
+.item-link {
+    text-decoration: none;
+    color: white;
+}
+
+.item-link-selected {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px green;
+    padding-bottom: 10px;
+}
+
+.item-logo {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.container-2 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .Container-2 {
+        width: max-content;
+    }
+}
+
+.Container-2-img {
+    border-radius: 30px;
+    align-self: center;
+}
+
+.Container-2-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.Container-2-Right-title {
+    font-size: xx-large;
+}
+
+.Container-2-Right-description {
+    padding-top: 20px;
+    color: grey;
+    font-size: small;
+}
+
+.Container-2-Right-cta {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(109, 233, 181);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container-2-Right-cta-text {
+    padding-top: 40px;
+    color: rgb(6, 12, 2);
+    text-align: center;
+}
+
+.Container-2-Text-group {
+    margin-top: 50px;
+}
+
+.Right-Text-Info-lable {
+    margin-top: 50px;
+}
+
+.Right-Text-Info-lable-icon {
+    color: rgb(47, 112, 233);
+}
+
+.Right-Text-Info-item {
+    color: grey;
+}
+
+.Container-3-header {
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+    .Container-3-header {
+        text-align: left;
+        margin-left: 150px;
+    }
+}
+
+.Container-3-header-lable {
+    font-size: medium;
+    color: green;
+}
+
+.Container-3-headerl-title {
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.Container-3-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Container-3-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.Container-3-content-card {
+    margin-top: 80px;
+    display: block;
+    border-radius: 30px;
+}
+
+.Container-3-content-img {
+    align-self: center;
+}
+
+.Container-3-content-cta {
+    display: block;
+    background-color: rgb(43, 82, 43);
+    align-content: center;
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container-3-content-cta-text {
+    padding-top: 40px;
+    align-self: center;
+}
+
+.container-4 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container-4-img {
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+}
+
+.container-4-text-group {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-4-text-lable {
+    font-size: medium;
+    color: green;
+}
+
+.container-4-text-title {
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.container-4-text-description {
+    padding-top: 20px;
+    color: grey;
+    font-size: small;
+}
+
+.container-4-icon-group {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-4-icon-pair {
+    display: flex;
+    flex: 50%;
+}
+
+.container-4-icon-img {
+    flex: start;
+    padding-right: 30px;
+}
+
+.container-4-icon-text {
+    flex: end;
+}
+
+.container-5 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-5 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container-5-text-group {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-5-text-lable {
+    font-size: medium;
+    color: green;
+}
+
+.container-5-text-title {
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.container-5-text-description {
+    padding-top: 20px;
+    color: grey;
+    font-size: small;
+    margin-right: 50px;
+}
+
+.container-5-text-grouping {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-5-text {
+    justify-content: center;
+    font-size: medium;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-5-text {
+        justify-content: center;
+        font-size: medium;
+        margin-left: 60px;
+    }
+}
+
+.container-5-img {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+}
